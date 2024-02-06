@@ -1,0 +1,32 @@
+.root {
+    position: relative;
+    left: -100px;
+}
+
+.input {
+    padding: 10px 33px;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.searchSvg {
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    opacity: 0.4;
+}
+
+.resetSvg {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    opacity: 0.2;
+    cursor: pointer;
+    transition: .1s ease-in;
+
+    &:hover {
+        opacity: 0.6;
+    }
+}
